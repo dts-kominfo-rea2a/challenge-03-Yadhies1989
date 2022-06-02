@@ -21,7 +21,6 @@ const dataBelanjaan = [
 ];
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-// const listBelanjaan = null;
 const listBelanjaan = (param1) => {
   let hasilBelanjaan =[];
   for (let counter = 0; counter < param1.length; counter++) {
@@ -31,7 +30,6 @@ const listBelanjaan = (param1) => {
 };
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-// const totalBelanjaan = null;
 const totalBelanjaan = (param1) => {
   let hargaTotal = 0;
   for (let counter = 0; counter < param1.length; counter++) {
